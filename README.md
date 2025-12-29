@@ -1,2 +1,6 @@
-# crypto
-auction
+# crypto live auction
+. Problem Statement:
+Traditional online auctions lack real-time interaction and secure, instant payment mechanisms. They often rely on centralized systems, which can lead to delays, manipulation, and lack of transparency. With the growing adoption of cryptocurrencies and digital collectibles, there's a need for a decentralized, real-time auction platform that allows users to bid using crypto while watching live demonstrations of the item. This solution is particularly relevant in the age of NFTs, digital art, and blockchain-based ownership.
+ Solution:
+This project proposes a decentralized web platform that allows sellers (auctioneers) to stream live video of auction items while buyers place real-time bids using cryptocurrency wallets such as MetaMask. The platform integrates WebRTC for ultra-low latency video streaming, smart contracts on Ethereum/Polygon for automated auction logic and secure transactions, and WebSockets for real-time bid updates. Wallet authentication ensures secure participation, while smart contracts enforce auction rules such as bid increments, time extensions, and automatic fund/ownership transfers. The platform also includes features like live chat, bidder reactions, and an analytics dashboard for sellers.
+
